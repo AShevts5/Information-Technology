@@ -13,6 +13,6 @@ public class Eight {
             if (Nums[i] == max0)
                 n_max += 1;
         }
-        System.out.println(n_max);
+        System.out.println("Количество максимальных чисел = " + n_max);
     }
 }
