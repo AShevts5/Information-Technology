@@ -7,8 +7,6 @@ public class ThirteenThree {
         int k1 = sc.nextInt();
         System.out.println("Введите второй катет: ");
         int k2 = sc.nextInt();
-        System.out.println("Первый катет = " + k1);
-        System.out.println("Второй катет = " + k2);
         double s = (k1 * k2)/2;
         System.out.println("Площадь = " + s);
         double g = Math.sqrt(Math.pow(k1, 2) + Math.pow(k2, 2));
