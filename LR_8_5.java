@@ -26,5 +26,7 @@ public class EightFive {
             if (i == num)
                 System.out.println("Осень!");
         }
+        if (num < 1 || num > 12) 
+            System.out.println("Нет такого месяца");
     }
 }
