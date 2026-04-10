@@ -6,7 +6,7 @@ public class TwelveTwo {
         System.out.println("Исходная матрица C: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                C[i][j] = (int) (Math.random() * 100);
+                C[i][j] = (int) (Math.random() * 57);
             }
         }
         for (int i = 0; i < 3; i++) {
